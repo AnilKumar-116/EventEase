@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Ease</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #fff7f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffcccc, #ffe6e6);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #c94f7c;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(201, 79, 124, 0.3);
+    }
+
+    .card h2 {
+      color: #c94f7c;
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: #fddde6;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Event Ease</h1>
+  </header>
+
+  <section class="grid-container">
+    <div class="card">
+      <div class="icon">💛</div>
+      <h2>Haldi Ceremony</h2>
+      <p>Yellow joy, turmeric splashes, and sunshine laughter with loved ones.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌿</div>
+      <h2>Mehndi Night</h2>
+      <p>Henna, music, and glam – bring your patterns and your moves.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎶</div>
+      <h2>Sangeet</h2>
+      <p>Live dance-offs, couple's groove, and your chance to steal the show.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💍</div>
+      <h2>The Wedding</h2>
+      <p>Vows, rituals, and the promise of forever. Livestream available.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🥂</div>
+      <h2>Reception</h2>
+      <p>Elegance, speeches, and celebration under the stars.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌈</div>
+      <h2>After Party</h2>
+      <p>Neon, music, and wild memories. Dress code: unforgettable.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📜</div>
+      <h2>AI Vows</h2>
+      <p>Custom AI-generated vows that reflect your story and soul.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎁</div>
+      <h2>Gift Registry</h2>
+      <p>From experiences to NFTs – your blessings, your way.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🕰️</div>
+      <h2>Love Timeline</h2>
+      <p>Swipe through the couple’s journey from “hi” to “happily ever after.”</p>
+    </div>
+  </section>
+  <footer>
+    Made with ❤️ by Event Ease | #Event Ease
+  </footer>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Ease | Corporate Events</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      color: #1e3c72;
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .icon {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #2a5298;
+    }
+
+    footer {
+      background: #e8ecf1;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EventEase 2025 – Event Highlights</h1>
+  </header>
+
+  <section class="grid-container">
+    <div class="card">
+      <div class="icon">🎤</div>
+      <h2>Keynote Address</h2>
+      <p>Hear from top industry leaders about emerging tech and future insights.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧠</div>
+      <h2>Innovation Workshops</h2>
+      <p>Hands-on sessions to prototype disruptive solutions with expert guidance.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🤝</div>
+      <h2>Networking Sessions</h2>
+      <p>Curated meetups for startups, investors, and professionals to connect.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📢</div>
+      <h2>Panel Discussions</h2>
+      <p>Diverse voices debate the big ideas shaping tomorrow’s business landscape.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💡</div>
+      <h2>Pitch Arena</h2>
+      <p>Startup founders pitch live to a panel of VCs, accelerators, and press.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🌐</div>
+      <h2>Global Expo</h2>
+      <p>Explore booths featuring cutting-edge products from 30+ countries.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">📈</div>
+      <h2>Growth Clinics</h2>
+      <p>Get expert feedback on scaling, marketing, and monetizing your idea.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎬</div>
+      <h2>Product Launches</h2>
+      <p>Exclusive sneak peeks and reveals from innovative tech brands.</p>
+    </div>
+  </section>
+
+  <footer>
+    Powered by @EventEase | © 2025 All Rights Reserved
+  </footer>
+
+</body>
+</html>
